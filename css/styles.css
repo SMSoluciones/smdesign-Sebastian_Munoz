@@ -1,0 +1,731 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #202124;
+    overflow-x: hidden;
+}
+
+h1{
+    font-weight: bold;
+    color: white;
+}
+
+h2{
+    font-weight: lighter;
+    color: white;
+    font-size: 20px;
+}
+
+h3{
+    font-weight: bold;
+    color: white;
+    font-size: 15px
+}
+
+p{
+    font-weight: normal;
+    color: white;
+}
+
+q{
+    color: white;
+    font-size: 25px;
+}
+
+.aliCenter{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*Home Styles-*/
+.header_home{
+    background-image: url(../assets/img/indexheader.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    max-width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.soporteHeader{
+    display: flex;
+    height: 200px;
+    padding-top: 150px;
+    justify-content: center;
+}
+
+.idiomas{
+    width: 30px;
+    height: 30px;
+    padding-left: 92%;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+/*Navegación*/
+
+.navegacion{
+    background-color: #333333b9;
+    backdrop-filter: blur(2px);
+    height: 80px;
+    display: flex;
+    border-radius: 45px;
+    list-style: none;
+    font-size: 20px;
+    margin: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lista__style{
+    list-style-type: none;
+}
+
+.item__lista{
+    padding: 10px 35px;
+    display: inline-block
+}
+
+.navegacion a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navegacion a:hover{
+    text-decoration: none;
+    color: #338af3;
+}
+
+.navegacion ul{
+    display: flex;
+}
+
+#menu{
+    display: none;
+}
+
+/*Navegacion Style FIN*/
+
+.containerHome{
+    margin-top: 30px;
+    background-color: red;
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+
+/*Main*/
+.containerPadre{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    height: 300px;
+}
+
+/*Containers de Home*/
+.container__item1{
+    display: flex;
+    background-color: #1a1a1a;
+    margin: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: auto;
+    justify-content: center;
+    align-content: center;
+    border-radius: 20px;
+    flex-direction: column;
+}
+
+.container__item1 img{
+    height: 150px;
+    width: 150px;
+    align-self: center;
+}
+
+.container__item1 h2{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.container__item1:hover{
+    display: flex;
+    background-color: black;
+    cursor: pointer;
+}
+/*----*/
+
+/*Main Style */
+
+/*Contanos*/
+.contanosHome{
+    filter: drop-shadow(-40px 30px 1px #1a1a1a);
+    display: flex;
+    background-color: black;
+    height: 200px;
+    margin: 5%;
+    align-items: center;
+    justify-content:space-around;
+    margin-top: 200px;
+}
+
+.contanos__boton{
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contanos__boton a{
+    color: black;
+    text-decoration: none;
+    font-weight:bold;
+    text-align: center;
+    justify-content: center;
+}
+
+/*---*/
+
+.flex_footer{
+    background-color: black;
+    height: 200px;
+    width: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.redes{
+    display: flex;
+    height: 50px;
+    width: 50px;
+}
+.redes img{
+    margin: 5px;
+}
+
+/*Home Styles FIN-*
+
+/*Servicios Styles*/
+.header_servicios{
+    background-image: url(../assets/img/servicios.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: bottom;
+    width: auto;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cajafrase__header{
+    background-color: #333333c5;
+    width: auto;
+    height: 150px;
+    text-align: center;
+    margin-top: 150px;
+    padding-top: 50px;
+}
+.section_service{
+    padding-bottom: 5%;
+}
+
+/*Servicios Styles FIN*/
+
+/*Designer Styles*/
+.header_designer{
+    background-image: url(../assets/img/designer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    width: auto;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.conteiner_designer{
+    width: auto;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+.container__titulo{
+    background-color: black;
+    width: 100px;
+    display: flex;
+    writing-mode:vertical-rl;
+    text-orientation:mixed;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.container__contenido{
+
+    background-color: #1a1a1a;
+    display: flex;
+    width: 1000px;
+    height: 400;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+/*Designer Styles FIN*/
+
+/*Porfolio Styles*/
+
+.headerPorfolio{
+    margin: 0%;
+}
+
+.containerPorfolio{
+    width: auto;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    margin: 30px;
+
+}
+
+.titulo__porfolio{
+    display: flex;
+    background-color: none;
+    writing-mode: vertical-lr;
+    align-content: center;
+    justify-content: center;
+    width: 200px;
+    font-size: 70px;
+    text-orientation: sideways-right;
+}
+
+.img__redondeo{
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.imagenes__porfolio{
+    display: flex;
+    width: 1000px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+/*Porfolio Styles FIN*/
+
+/*----Contacto Styles*/
+.header_contacto{
+    background-image: url(../assets/img/contacto.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: bottom;
+    width: auto;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Padre Formulario*/
+.containerFormulario{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+/*Hijo*/
+.container__datos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 50px);
+    grid-column: 2/3;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.ali__form{
+    grid-column: 1/3;
+}
+
+/*Descripcion*/
+.container__datos label{
+    display: grid;
+    grid-column: 1/2;
+    color: white;
+    align-content: center;
+    justify-content: left;
+}
+
+/*Caja*/
+.container__datos input{
+    grid-column: 2/3;
+    justify-content: center;
+    background-color: grey;
+    border-radius: 15px;
+    height: 30px;
+    border-style: none;
+    
+}
+
+/*Selector*/
+.container__datos select{
+    grid-column: 2;
+    border-radius: 10px;
+    color: black;
+    background-color: grey;
+    border-style: none;
+}
+
+/*Hijo Cuadro*/
+.container__cuadro{
+    display: grid;
+    width: auto;
+    height: auto;
+    align-content: center;
+    grid-template-rows: repeat(6, 50px);
+    margin-left: 50px;
+    
+}
+
+.container__cuadro h3{
+    display: grid;
+    justify-content: left;
+    align-items: center;
+}
+
+.container__cuadro textarea{
+    grid-row: 2/7;
+    border-radius: 20px;
+    border-style: none;
+}
+
+.botonerasContacto{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column: 2/4;
+    padding-top: 10px;
+    height: 50px;
+}
+
+.botones__contacto{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    height: 50px;
+    margin:10px
+}
+
+.botones__contacto:hover{
+    filter: drop-shadow(5px 5px 1px black);
+}
+
+.mapaContacto{
+    display: flex;
+    margin: 0%;
+    height: 400px;
+    width: 100%;    
+}
+
+
+/*Mediaquerys*/
+@media screen and (min-width:320px) and (max-width:480px){
+
+/*Home*/
+    .headerlogo{
+        height: 6vh;
+    }
+    .header_home{
+        height: 50vh;
+    }
+    .soporteHeader {
+        height: 5vh;
+        padding-top: 14vh;
+    }
+    .idiomas{
+        padding-left: 70%;
+    }
+    .item__lista{
+        display: none;
+    }
+    .containerPadre{
+        grid-template-columns: repeat(1, 1fr);
+        height: 100vh;
+        padding-bottom: 60vh;
+    }
+    .containerPadre .container__item1 img{
+        height: 15vh;
+    }
+    .contanosHome{
+        flex-direction: column;
+        filter: none;
+        justify-content: center;
+    }
+    .contanosHome h2{
+        font-size: 90%;
+    }
+    .flex_footer{
+        flex-direction: column;
+        font-size: 80%;
+    }
+    .flex_footer .redes{
+        padding-right: 18vh;
+    }
+    #menu{
+        display: flex;
+        height: 3vh;
+    }
+/*--Home FINAL*/
+/*Servicios*/
+    .cajafrase__header q{
+        font-size: 1vh;
+    }
+/*--Servicios Final*/
+
+/*Designer*/
+    .conteiner_designer p{
+        font-size: 1vh;
+    }
+
+    .container__contenido{
+        padding: 1vh;
+    }
+/*--Designer Final*/
+
+/*Porfolio*/
+    .containerPorfolio p{
+        font-size: 2vh;
+    }
+    .containerPorfolio{
+        background-color: #1a1a1a;
+        margin:1vh;
+    }
+    .containerPorfolio img{
+        height: 10vh;
+    }
+    .containerPorfolio iframe{
+        height: 10vh;
+        width: 20vh;
+    }
+/*--PorfolioFinal*/
+
+/*Contacto*/
+
+    .containerFormulario{
+        grid-template-columns: repeat(1,1vh);
+        justify-content: center;
+        scale: 70%;
+    }
+    .container__datos{
+        margin-right: 0;
+        grid-column: 1/4;
+    }
+    .container__cuadro{
+        grid-column: 1/4;
+        padding: 0;
+        margin: 0;
+    }
+    .botonerasContacto{
+        padding-bottom: 3vh;
+    }
+
+/*--Contacto Final*/
+}
+
+@media screen and (min-width:480px) and (max-width:960px){
+
+    /*Home*/
+    .header_home{
+        height: 50vh;
+    }
+    .soporteHeader {
+        height: 10vh;
+        padding-top: 14vh;
+    }
+    .idiomas{
+        padding-left: 90%;
+    }
+    .item__lista{
+        display: none;
+    }
+    .containerPadre{
+        grid-template-columns: repeat(3, 1fr);
+        height: 50vh;
+        padding-bottom: 5vh;
+    }
+    .containerPadre .container__item1 img{
+        height: 15vh;
+        width: 15vh;
+    }
+    .contanosHome{
+        flex-direction: column;
+        filter: none;
+        justify-content: center;
+    }
+    .flex_footer{
+        flex-direction: column;
+    }
+    .flex_footer .redes{
+        padding-right: 18vh;
+    }
+    #menu{
+        display: flex;
+        height: 4vh;
+    }
+/*--Home FINAL*/
+/*Servicios*/
+    .cajafrase__header q{
+        font-size: 2vh;
+    }
+/*--Servicios Final*/
+
+/*Porfolio*/
+    .containerPorfolio p{
+        font-size: 5vh;
+    }
+    .containerPorfolio{
+        background-color: #1a1a1a;
+        margin:1vh;
+    }
+/*--PorfolioFinal*/
+
+/*Contacto*/
+
+    .containerFormulario{
+        grid-template-columns: repeat(1,1vh);
+        justify-content: center;
+    }
+    .container__datos{
+        margin-right: 0;
+        grid-column: 1/4;
+    }
+    .container__cuadro{
+        grid-column: 1/4;
+        padding: 0;
+        margin: 0;
+    }
+    .botonerasContacto{
+        padding-bottom: 3vh;
+    }
+/*--Contacto Final*/    
+}
+
+@media screen and (min-width:960px) and (max-width:1328px){
+
+    /*Home*/
+    .header_home{
+        height: 50vh;
+    }
+    .soporteHeader {
+        height: 15vh;
+        padding-top: 14vh;
+    }
+    .idiomas{
+        padding-left: 90%;
+    }
+    .lista__style{
+        font-size: 80%;
+    }
+    .containerPadre{
+        grid-template-columns: repeat(3, 1fr);
+        height: 50vh;
+        padding-bottom: 5vh;
+    }
+    .containerPadre .container__item1 img{
+        height: 15vh;
+        width: 15vh;
+    }
+    .contanosHome{
+        flex-direction: column;
+        filter: none;
+        justify-content: center;
+    }
+    .flex_footer{
+        flex-direction: column;
+    }
+    .flex_footer .redes{
+        padding-right: 18vh;
+    }
+
+/*--Home FINAL*/
+/*Servicios*/
+    .cajafrase__header q{
+        font-size: 2vh;
+    }
+/*--Servicios Final*/
+
+/*Porfolio*/
+    .containerPorfolio p{
+        font-size: 5vh;
+    }
+    .containerPorfolio{
+        background-color: #1a1a1a;
+        margin:1vh;
+    }
+/*--PorfolioFinal*/
+
+/*Contacto*/
+    .containerFormulario{
+        grid-template-columns: repeat(1,1vh);
+        justify-content: center;
+    }
+    .container__datos{
+        margin-right: 0;
+        grid-column: 1/4;
+    }
+    .container__cuadro{
+        grid-column: 1/4;
+        padding: 0;
+        margin: 0;
+    }
+    .botonerasContacto{
+        padding-bottom: 3vh;
+    }
+/*--Contacto Final*/    
+}
+
+/* 0 - 480
+
+480 - 960
+
+960 - 1328 */
+
+
+/*Contacto Styles FIN----*/
+
+/*Continuara...*/
+
+/*COSAS QUE QUIERO APLICAR EN HOME
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

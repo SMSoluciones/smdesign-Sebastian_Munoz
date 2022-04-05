@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/logo/logowhite.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>SM Ingenieria y Diseño - Contacto</title>
+</head>
+
+<body>
+    <div>
+        <header class="header_contacto">
+            <div class="idiomas">
+                <img src="../assets/img/argentina.png" alt="idioma arg" height="30px" width="30px">
+                <img src="../assets/img/reino-unido.png" alt="idioma ing" height="30px" width="30px">
+            </div>
+            <nav class="navegacion">
+                <div>
+                    <a href="../index.html">
+                        <img src="../assets/logo/logowhite.png" alt="logo en blanco" height="80px" class="headerlogo">
+                    </a>
+                </div>
+                    <ul class="lista__style">
+                        <li class="item__lista"><a href="../index.html">Home</a></li>
+                        <li class="item__lista"><a href="./servicios.html">Servicios</a><li>
+                        <li class="item__lista"><a href="./designer.html">Designer</a></li>
+                        <li class="item__lista"><a href="./porfolio.html">Porfolio</a></li>
+                        <li class="item__lista"><a href="./contacto.html">Contacto</a></li>
+                    </ul>
+                <div id="menu">
+                    <img src="../assets/img/menu.png" alt="icono-menu">
+                </div>
+            </nav>
+        </header>
+    </div>
+    
+    <main> 
+        <!--CONTACTO-->
+        <div class="aliCenter"><h1><legend>CONTACTO</legend></h1></div>
+        <main>
+            <form method="get" name="contacto" action="procesar.php" enctype="multipart/form-data">
+            <div class="containerFormulario">
+                <!--DATOS-->
+                <div class="container__datos">
+                    <h3 class="ali__form"><legend>+DEJANOS TUS DATOS</legend></h3>
+                    <label for="Nombre: ">
+                        Nombre: 
+                    </label>
+                    <input type="text" name="nombre" placeholder="" required>
+                
+                    <label for="Localidad: ">
+                        Localidad: 
+                    </label>
+                    <input type="text" name="localidad" placeholder="">
+                
+                    <label for="Email: ">
+                        Email: 
+                    </label>
+                    <input type="text" name="email" placeholder="" required>
+                
+                    <label for="Telefono: ">
+                        Teléfono: 
+                    </label>
+                    <input type="text" name="telefono" placeholder="" required>
+                    
+                <!--SELECTOR-->
+                    <h3><legend>SECTOR</legend></h3>
+                        <select name="sector">
+                            <option value="producto">Producto</option>
+                            <option value="metalurgia">Metalurgia</option>
+                            <option value="transporte">Transporte</option>
+                            <option value="mobiliario">Mobiliario</option>
+                            <option value="procesos">Procesos</option>
+                            <option value="otros">Otros...</option>
+                        </select>                    
+                </div>               
+                <!--CAJA DE COMENTARIOS-->
+                <div class="container__cuadro">
+                    <h3><legend>+CONTANOS TU IDEA</legend></h3>
+                    <textarea name="contanos" id="" cols="50" rows="10"></textarea>
+                </div>
+                <!---BOTONERA-->
+                <div class="botonerasContacto">                    
+                    <input type="reset" value="ADJUNTAR" class="botones__contacto">
+                    <input type="reset" value="BORRAR" class="botones__contacto">
+                    <input type="submit" value="ENVIAR" class="botones__contacto">
+                </div>
+            </form>
+        </main>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.7431159991042!2d-60.6522794848133!3d-32.957790980917856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab0d14fbcfcf%3A0xb6f35757f2972f5b!2sPasco%201732%2C%20S2000ECJ%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1648588610527!5m2!1ses!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapaContacto"></iframe>
+
+        <footer class="flex_footer">    
+            <div class="redes"><a href="https://www.facebook.com/sebastian.m90"><img src="../assets/img/facebook.png" alt="logo facebook"></a>
+                <a href="https://www.instagram.com/smunoz.di/"><img src="../assets/img/instagram.png" alt="logo instagram"></a>
+                <a href="https://www.linkedin.com/in/smunozid/"><img src="../assets/img/linkedin.png" alt="logo linkedin"></a>
+            </div>
+                <p>Todos los derechos reservados SM I+D. 2022</p>
+        </footer>
+
+</body>
+</html>
