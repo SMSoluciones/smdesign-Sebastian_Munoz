@@ -164,6 +164,10 @@ q{
 	animation: soporteHeader 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
+.soporteHeaderMedia{
+    display: none;
+}
+
 /*----*/
 
 /*Main Style */
@@ -461,6 +465,13 @@ q{
     .soporteHeader {
         display: none;
     }
+
+    .soporteHeaderMedia{
+        display: flex;
+        height: 15vh;
+        justify-content: center;
+        padding-top: 1vh;
+    }
     .idiomas{
         padding-left: 70%;
     }
@@ -471,19 +482,26 @@ q{
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(5, 1fr);
         height: 100vh;
-        width: 18vh;
-        padding-bottom: 18vh;
+        width: auto;
+        padding-bottom: 0;
     }
     .containerPadre .container__item1 img{
-        height: 6vh;
-        width: 6vh;
+        height: 7vh;
+        width: 7vh;
         padding-bottom: 0;
-        margin: 2vh;
+        margin: 1vh;
     }
 
     .container__item1{
         justify-self: center;
         grid-column: 1;
+        width: 15vh;
+        height: 10vh;
+    }
+
+    .container__item1 h2{
+        font-size: 1vh;
+
     }
     .contanosHome{
         flex-direction: column;
