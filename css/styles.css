@@ -457,10 +457,10 @@ q{
 
 /*Home*/
     .headerlogo{
-        height: 4vh;
+        height: 7vh;
     }
     .header_home{
-        height: 30vh;
+        height: 50vh;
     }
     .soporteHeader {
         display: none;
@@ -468,7 +468,7 @@ q{
 
     .soporteHeaderMedia{
         display: flex;
-        height: 15vh;
+        height: 20vh;
         justify-content: center;
         padding-top: 1vh;
     }
@@ -479,28 +479,26 @@ q{
         display: none;
     }
     .containerPadre{
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(5, 1fr);
         height: 100vh;
         width: auto;
-        padding-bottom: 0;
+        padding-bottom: 40vh;
     }
     .containerPadre .container__item1 img{
-        height: 7vh;
-        width: 7vh;
-        padding-bottom: 0;
-        margin: 1vh;
+        height: 15vh;
+        width: 15vh;
     }
 
     .container__item1{
         justify-self: center;
-        grid-column: 1;
-        width: 15vh;
-        height: 10vh;
+        grid-column: 2/4;
+        width: 20vh;
+        height: 15vh;
     }
 
     .container__item1 h2{
-        font-size: 1vh;
+        font-size: 2vh;
 
     }
     .contanosHome{
@@ -525,8 +523,12 @@ q{
 
     .navegacion #menu{
         display: flex;
-        height: 2vh;
+        height: 5vh;
     }
+    .navegacion{
+        height: 10vh;
+    }
+
 /*--Home FINAL*/
 /*Servicios*/
     .cajafrase__header q{
