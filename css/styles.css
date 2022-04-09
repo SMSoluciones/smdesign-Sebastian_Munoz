@@ -288,7 +288,6 @@ q{
     background-color: #1a1a1a;
     display: flex;
     width: 1000px;
-    height: 400;
     align-items: center;
     justify-content: center;
     padding: 50px;
@@ -470,7 +469,7 @@ q{
         display: flex;
         height: 20vh;
         justify-content: center;
-        padding-top: 1vh;
+        padding-top: 3vh;
     }
     .idiomas{
         padding-left: 70%;
@@ -518,7 +517,7 @@ q{
         justify-content: center;
     }
     .flex_footer img{
-        height: 3vh;
+        height: 6vh;
     }
 
     .navegacion #menu{
@@ -532,13 +531,13 @@ q{
 /*--Home FINAL*/
 /*Servicios*/
     .cajafrase__header q{
-        font-size: 1vh;
+        font-size: 2vh;
     }
 /*--Servicios Final*/
 
 /*Designer*/
     .conteiner_designer p{
-        font-size: 1vh;
+        font-size: 2vh;
     }
 
     .container__contenido{
@@ -586,18 +585,24 @@ q{
 /*--Contacto Final*/
 }
 
-@media screen and (min-width:481px) and (max-width:960px){
+@media screen and (min-width:480px) and (max-width:768px){
 
     /*Home*/
     .header_home{
         height: 50vh;
     }
     .soporteHeader {
-        height: 10vh;
-        padding-top: 14vh;
+        display: none;
+    }
+
+    .soporteHeaderMedia{
+        display: flex;
+        height: 20vh;
+        justify-content: center;
+        padding-top: 5vh;
     }
     .idiomas{
-        padding-left: 90%;
+        padding-left: 85%;
     }
     .item__lista{
         display: none;
@@ -605,7 +610,7 @@ q{
     .containerPadre{
         grid-template-columns: repeat(3, 1fr);
         height: 50vh;
-        padding-bottom: 5vh;
+        padding-bottom: 30vh;
     }
     .containerPadre .container__item1 img{
         height: 15vh;
@@ -620,12 +625,13 @@ q{
         flex-direction: column;
     }
     .flex_footer .redes{
-        padding-right: 18vh;
+        justify-content: center;
     }
     #menu{
         display: flex;
         height: 4vh;
     }
+
 /*--Home FINAL*/
 /*Servicios*/
     .cajafrase__header q{
@@ -661,17 +667,21 @@ q{
     .botonerasContacto{
         padding-bottom: 3vh;
     }
-/*--Contacto Final*/    
+/*--Contacto Final*/
 }
 
-@media screen and (min-width:961px) and (max-width:1328px){
+@media screen and (min-width:768px) and (max-width:1328px){
 
     /*Home*/
+    .headerlogo{
+        height: 6vh;
+        padding-left: 4vh;
+    }    
     .header_home{
         height: 50vh;
     }
     .soporteHeader {
-        height: 15vh;
+        height: 10vh;
         padding-top: 14vh;
     }
     .idiomas{
@@ -737,6 +747,7 @@ q{
     }
 /*--Contacto Final*/    
 }
+
 
 /* 0 - 480
 
