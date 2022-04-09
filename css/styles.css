@@ -53,7 +53,7 @@ q{
 
 .soporteHeader{
     display: flex;
-    height: 200px;
+    height: 150px;
     padding-top: 150px;
     justify-content: center;
 }
@@ -748,34 +748,6 @@ q{
 /*--Contacto Final*/    
 }
 
-
-/* 0 - 480
-
-480 - 960
-
-960 - 1328 */
-
-
 /*Contacto Styles FIN----*/
 
 /*Continuara...*/
-
-/*COSAS QUE QUIERO APLICAR EN HOME
-.dropdown{
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content{
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    z-index: 1;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
