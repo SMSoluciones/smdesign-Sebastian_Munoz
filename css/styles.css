@@ -51,6 +51,30 @@ q{
     flex-direction: column;
 }
 
+/*Animacion de imagen Header*/
+
+.soporteHeader {
+	-webkit-animation: soporteHeader 5s ease-out both;
+	animation: soporteHeader 5s ease-out both;
+}
+
+@keyframes soporteHeader {
+    0% {
+        -webkit-transform: scale(1) translateY(0);
+        transform: scale(1) translateY(0);
+        -webkit-transform-origin: 50% 16%;
+        transform-origin: 50% 16%;
+    }
+    100% {
+        -webkit-transform: scale(1.25) translateY(-15px);
+        transform: scale(1.25) translateY(-15px);
+        -webkit-transform-origin: top;
+        transform-origin: top;
+    }
+}
+
+/*FIN Animacion de imagen Header*/
+
 .soporteHeader{
     display: flex;
     height: 150px;
@@ -81,6 +105,27 @@ q{
     justify-content: space-around;
     align-items: center;
 }
+
+/*Animacion de Nav*/
+
+.navegacion ul {
+    animation: navegacion 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@keyframes navegacion{
+    0% {
+        letter-spacing: -0.5em;
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/*FIN Animacion de Nav*/
 
 .lista__style{
     list-style-type: none;
@@ -160,7 +205,6 @@ q{
 }
 
 .soporteHeader {
-	-webkit-animation: soporteHeader 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	animation: soporteHeader 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
@@ -202,6 +246,27 @@ q{
     text-align: center;
     justify-content: center;
 }
+
+/*Animaciones de botones*/
+
+.contanos__boton:hover, .redes img:hover {
+	animation: contanos__boton 0.5s ease-in-out ;
+}
+
+@keyframes contanos__boton {
+    from {
+        transform: scale(1);
+        transform-origin: center center;
+        animation-timing-function: ease-out;
+    }
+    40% {
+        transform: scale(0.7);
+        animation-timing-function: ease-in;
+    }
+}
+
+/*FIN Animaciones de botones*/
+
 
 /*---*/
 
@@ -332,8 +397,21 @@ q{
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
+    animation-name: animacion_img-porfolio;
 }
 
+.imagenes__porfolio img:hover{
+    animation: animacionHover-img 1s ;
+    
+}
+
+@keyframes animacionHover-img {
+    100% {
+        transform: scale(2);
+        transform-origin: center center;
+        animation-fill-mode: backwards;
+    }
+}
 
 /*Porfolio Styles FIN*/
 
