@@ -760,7 +760,7 @@ q{
     }
     .soporteHeader {
         height: 10vh;
-        padding-top: 14vh;
+        padding-top: 10vh;
     }
     .idiomas{
         padding-left: 90%;
@@ -781,13 +781,14 @@ q{
         flex-direction: column;
         filter: none;
         justify-content: center;
+        margin-top: 40%;
     }
     .flex_footer{
         flex-direction: column;
     }
     .flex_footer .redes{
-        padding-right: 18vh;
-    }
+        justify-content: center;
+    }   
 
 /*--Home FINAL*/
 /*Servicios*/
