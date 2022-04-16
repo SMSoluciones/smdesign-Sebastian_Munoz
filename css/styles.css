@@ -334,6 +334,7 @@ q{
     display: flex;
     flex-direction:row;
     justify-content: center;
+    margin-bottom: 2%;
 }
 
 .container__titulo{
