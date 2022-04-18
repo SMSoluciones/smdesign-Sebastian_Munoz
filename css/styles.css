@@ -91,6 +91,11 @@ q{
     margin: 10px;
 }
 
+.idiomas img{
+    height: 30px;
+    width: 30px;
+}
+
 /*Navegación*/
 
 .navegacion{
@@ -157,14 +162,6 @@ q{
 
 /*Navegacion Style FIN*/
 
-.containerHome{
-    margin-top: 30px;
-    background-color: red;
-    width: 100%;
-    height: 700px;
-    display: flex;
-}
-
 /*Main*/
 .containerPadre{
     display: grid;
@@ -201,10 +198,9 @@ q{
     display: flex;
     background-color: black;
     cursor: pointer;
-    
 }
 
-.soporteHeader {
+.soporteHeader{
 	animation: soporteHeader 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
@@ -398,20 +394,7 @@ q{
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
-    animation-name: animacion_img-porfolio;
-}
 
-.imagenes__porfolio img:hover{
-    animation: animacionHover-img 1s ;
-    
-}
-
-@keyframes animacionHover-img {
-    100% {
-        transform: scale(2);
-        transform-origin: center center;
-        animation-fill-mode: backwards;
-    }
 }
 
 /*Porfolio Styles FIN*/
@@ -577,8 +560,8 @@ q{
 
     .container__item1 h2{
         font-size: 2vh;
-
     }
+    
     .contanosHome{
         flex-direction: column;
         filter: none;
